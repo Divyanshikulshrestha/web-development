@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css selector</title>
+    <style>
+      /* element selector 
+         */
+      p {
+        border: 2px solid red;
+      }
+      /* id selector -----> when you want to edit only one perticular element */
+      #firstpara {
+        color: green;
+      }
+      /* class selector -----> when you want same edit or thing in multiple line or element  */
+      .bgblue {
+        color: yellow;
+        background-color: blue;
+      }
+      footer,
+      span {
+        background-color: pink;
+      }
+      /* this is comment in css */
+    </style>
+  </head>
+  <body>
+    <h3>css selector</h3>
+    <p id="firstpara">
+      this is the simple paragraph to demonstrate css selector
+    </p>
+    <p id="secondpara" class="redelement bgblue">another para</p>
+    <p>another para</p>
+    <div>
+      <p>another para inside div</p>
+    </div>
+    <span>this is span</span>
+    <div>
+      <footer>this is footer</footer>
+    </div>
+  </body>
+</html>
