@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box model</title>
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background-color: rgb(186, 129, 186);
+      }
+      .container{
+        background-color: bisque;
+        border: 3px solid blueviolet;
+        /* we can set padding/margin top, bottom ,left and right
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-right: 19px;
+        padding-left: 19px; */
+
+        /*padding: 23px 56px 6px 78px ; 
+        padding/margin = top, right, bottom, left */
+
+
+        padding: 34px 19px;
+        /* padding:x(left/right)y(top/bottom); */
+
+        /* margin-top: 34px;
+        margin-bottom: 34px;
+        margin-left: 34px;
+        margin-right: 34px; */
+
+        margin: 14px 19px;
+        margin: 14px 19px; 
+        border-radius:23px ;
+        width: 533px;
+        box-sizing: border-box;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>this is heading</h3>
+      <p id="first">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
+        dolores harum sapiente ratione quidem vero et dicta. Doloribus
+        laboriosam quaerat aperiam ipsa nemo alias cumque, tempore consequuntur
+        fugit quisquam molestiae.
+      </p>
+    </div>
+
+    <div class="container">
+      <h3>this is heading</h3>
+      <p id="second">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
+        dolores harum sapiente ratione quidem vero et dicta. Doloribus
+        laboriosam quaerat aperiam ipsa nemo alias cumque, tempore consequuntur
+        fugit quisquam molestiae.
+      </p>
+    </div>
+
+    <div class="container">
+      <h3>this is heading</h3>
+      <p id="third">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
+        dolores harum sapiente ratione quidem vero et dicta. Doloribus
+        laboriosam quaerat aperiam ipsa nemo alias cumque, tempore consequuntur
+        fugit quisquam molestiae.
+      </p>
+    </div>
+  </body>
+</html>
