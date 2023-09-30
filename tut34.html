@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box shadow and text shadow</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .card {
+        padding: 23px 12px;
+        /* border: 2px solid red; */
+        margin: 23px 12px;
+        background-color: pink;
+        /* box-shadow:offset-x offset-y color */
+        /* box-shadow:offset-x offset-y color blur-radius */
+         /* box-shadow:offset-x offset-y color blur-radius spread-radius */
+        /* box-shadow: 10px 13px plum; */
+        /* box-shadow: -10px -13px plum; */
+        /* box-shadow: 7px 5px 10px plum; */
+        /* box-shadow: -7px -5px 10px plum; */
+        /* box-shadow: 7px 5px 10px 8px rgba(225, 76, 123, 0.8) */
+        /* box-shadow: inset 3px 5px rebeccapurple; */
+        box-shadow: inset 3px 5px palevioletred, 4px 5px purple;
+      }
+      .card h2{
+        /* text-shadow: 3px 4px white; */
+        text-shadow: 3px 4px 2px white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" id="card-1">
+        <h2>this is cpp course</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+          voluptas perspiciatis assumenda expedita iste error quae, repellendus
+          ipsum saepe qui sed dolor eius ipsam vel nostrum. Culpa aperiam
+          expedita, ullam ad neque ipsum delectus.
+        </p>
+      </div>
+      <div class="card" id="card-2">
+        <h2>this is html course</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae facere
+          alias ducimus adipisci at, ipsum magnam aliquid, commodi cumque maxime
+          cupiditate aliquam quas, nam non? Eaque, praesentium. Eius doloribus
+          ullam animi, laboriosam suscipit enim!
+        </p>
+      </div>
+      <div class="card" id="card-3">
+        <h2>this is css course</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos iure
+          modi voluptatem enim animi! Fugiat enim incidunt provident sint dolor
+          ratione velit ut quisquam dicta. Quia nemo voluptatibus alias vel
+          error omnis architecto labore.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
